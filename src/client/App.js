@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Route exact path="/">
-        <p>test</p>
+        <p>Welcome to Meal-sharing App</p>
       </Route>
       <Route exact path="/lol">
         <p>lol</p>
