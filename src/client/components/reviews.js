@@ -15,7 +15,7 @@ const Reviews=()=>{
             <ul>
           <li>ID:{item.id}<br/>
           NAME:{item.title}<br/>
-          COST:{item.stars}
+          STARS:{item.stars}
           </li>
           </ul>
           </div>

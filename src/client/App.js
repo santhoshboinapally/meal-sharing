@@ -8,12 +8,13 @@ import Meals from "./components/meals";
 import Reviews from "./components/reviews";
 import Reservations from "./components/reservations";
 import ContactUs from "./components/contactus";
-
+import { AddMeal } from "./components/addMeal";
+import { AddReview } from "./components/addReview";
+import { AddReservation } from "./components/addreservation";
 function App() {
   return (
    <div>
-      
-      <Header/>
+    <Header/>      
         <nav >
         <div class="nav-links">
         <Link to="/">Home</Link>
@@ -23,7 +24,6 @@ function App() {
         <Link to="/contactus">ContactUs</Link>
         </div>
         </nav>
-      
       <Route exact path="/">       
       <Home />
       </Route>
@@ -39,10 +39,18 @@ function App() {
       <Route exact path="/contactus">
       <ContactUs />
       </Route>
+      <Route exact path="/addmeal">
+      <AddMeal />
+      </Route>
+      <Route exact path="/addreview">
+        <AddReview />
+      </Route>
+      <Route exact path="/addreservation">
+        <AddReservation />
+      </Route>
       <DateTime/>
-    
-   
-    </div>
+     </div>
+
   );
 }
 export default App;
