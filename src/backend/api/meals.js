@@ -23,7 +23,7 @@ router.post("/", async (request, response) => {
   //Returns meal by id
   router.get("/:id", async (request, response) => {
     try {
-      const meals = await knex("meals").where("id", parseInt(request.params.id));
+      const meals = await knex("meals").where({id: request.params.id});
       response.json(meals);
     } catch (error) {
       throw error;
