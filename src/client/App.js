@@ -12,7 +12,7 @@ import ContactUs from "./components/contactus";
 function App() {
   return (
    <div>
-      <Router>
+      
       <Header/>
         <nav >
         <div class="nav-links">
@@ -41,7 +41,7 @@ function App() {
       </Route>
       <DateTime/>
       </Router>
-    </Router>
+   
     </div>
   );
 }
