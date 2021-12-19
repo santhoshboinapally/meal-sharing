@@ -14,7 +14,7 @@ import { AddReservation } from "./components/addreservation";
 function App() {
   return (
    <div>
-        <Header/>
+    <Header/>      
         <nav >
         <div class="nav-links">
         <Link to="/">Home</Link>
@@ -24,7 +24,7 @@ function App() {
         <Link to="/contactus">ContactUs</Link>
         </div>
         </nav>
-       <Route exact path="/">       
+      <Route exact path="/">       
       <Home />
       </Route>
       <Route exact path="/meals">
@@ -48,8 +48,9 @@ function App() {
       <Route exact path="/addreservation">
         <AddReservation />
       </Route>
-      <DateTime/>     
-      </div>
+      <DateTime/>
+     </div>
+
   );
 }
 export default App;
