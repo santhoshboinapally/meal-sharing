@@ -9,7 +9,7 @@ export const DateTime = () => {
         });
     return(
         <div class="timer">
-             <h4> Santhosh  @  {date.toLocaleTimeString()} , {date.toLocaleDateString()}</h4>
+             <h4> {date.toLocaleTimeString()} , {date.toLocaleDateString()}</h4>
                </div>
     )
 }

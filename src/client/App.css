@@ -37,15 +37,46 @@ li {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
   color: turquoise;
-  box-shadow: 0 4px 8px 0 rgba(240, 236, 236, 0.2);
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
   transition: 0.3s;
   width: 40%;
   padding: 10px;
   margin: 15px;
 }
 li:hover {
-  box-shadow: 0px 18px 30px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 18px 30px 0px rgba(255, 255, 255, 0.945);
 }
-.footer{
+.footer-list {
   color: aliceblue;
+  display: inline;
+}
+.card {
+  color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(253, 251, 251);
+  transition: 0.3s;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 251, 251);
+}
+.addmeal {
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  transition: 0.3s;
+  width: 60%;
+  text-align: center;
+  padding: 15px;
+  margin: 25px;
+}
+button {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 1em;
 }
