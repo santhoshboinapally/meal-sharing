@@ -23,7 +23,7 @@ function App() {
         <Link to="/contactus">ContactUs</Link>
         </div>
         </nav>
-      <Router>
+      
       <Route exact path="/">       
       <Home />
       </Route>
@@ -40,7 +40,7 @@ function App() {
       <ContactUs />
       </Route>
       <DateTime/>
-      </Router>
+    
    
     </div>
   );
