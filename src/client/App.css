@@ -1,3 +1,91 @@
 * {
-    box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background-color: rgb(37, 37, 37);
+}
+h1 {
+  color: royalblue;
+}
+.nav-links {
+  position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+}
+.disc {
+  position: center;
+  display: inline;
+  color: silver;
+}
+.timer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: rgb(208, 255, 147);
+  display: inline;
+}
+p {
+  color: rgb(253, 15, 253);
+}
+.meal {
+  color: rgb(255, 255, 255);
+}
+li {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color: turquoise;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  transition: 0.3s;
+  width: 40%;
+  padding: 10px;
+  margin: 15px;
+}
+li:hover {
+  box-shadow: 0px 18px 30px 0px rgba(255, 255, 255, 0.945);
+}
+.card {
+  color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(253, 251, 251);
+  transition: 0.3s;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 251, 251);
+}
+.add,
+.contact {
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  transition: 0.3s;
+  width: 60%;
+  text-align: center;
+  padding: 15px;
+  margin: 25px;
+}
+button {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 1em;
+}
+input {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  color: rgb(255, 145, 0);
+  padding: 5px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: rgb(138, 169, 196);
 }
