@@ -6,21 +6,22 @@ const Reviews=()=>{
       fetch("/api/review")
       .then(res=>res.json())
       .then(json=>setData(json)) },[])
-      return(
+      return(<center>
         <div class="reviews">
         <h1>Reviews</h1>
          <p>Welcome To Reviews Page</p>
         {data.map(item=>(
           <div>
             <ul>
-          <li>ID:{item.id}<br/>
-          NAME:{item.title}<br/>
-          STARS:{item.stars}
+          <li>
+          Meal-ID : {item.meal_id}<br/>
+          Review : {item.title}<br/>
+          STARS : {item.stars}
           </li>
           </ul>
           </div>
         ))}
-        </div>
+        </div></center>
       )
 }
 

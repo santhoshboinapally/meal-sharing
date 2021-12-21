@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./App.css";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { BrowserRouter as Link, Route } from "react-router-dom";
 import Header from "./components/header";
 import Home from "./components/home";
 import DateTime from "./components/timer";
@@ -11,10 +11,13 @@ import ContactUs from "./components/contactus";
 import { AddMeal } from "./components/addMeal";
 import { AddReview } from "./components/addReview";
 import { AddReservation } from "./components/addreservation";
+import Footer from "./components/footer";
+import AddButtons from "./components/addButtons";
+
 function App() {
   return (
    <div>
-    <Header/>      
+        <Header/>
         <nav >
         <div class="nav-links">
         <Link to="/">Home</Link>
@@ -24,7 +27,8 @@ function App() {
         <Link to="/contactus">ContactUs</Link>
         </div>
         </nav>
-      <Route exact path="/">       
+      <AddButtons />
+       <Route exact path="/">       
       <Home />
       </Route>
       <Route exact path="/meals">
@@ -46,11 +50,11 @@ function App() {
         <AddReview />
       </Route>
       <Route exact path="/addreservation">
-        <AddReservation />
-      </Route>
-      <DateTime/>
+      <AddReservation />
+      </Route> 
+       <DateTime />
+      <Footer/>
      </div>
-
   );
 }
 export default App;

@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react';
 
 export function AddReview({}) {
 const [title, setTitle] = useState("");
-const [mealId, setMealId] = useState("");
+const [mealid, setMealId] = useState("");
 const [stars, setStars] = useState("");
 
   function onSubmit(){
@@ -14,7 +14,7 @@ const [stars, setStars] = useState("");
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
                 title: title,
-                mealId: mealId,
+                meal_id: mealid,
                 stars: stars,
             })
         });
@@ -30,8 +30,8 @@ const [stars, setStars] = useState("");
   }
 }
 
-return (
-    <div class="addmeal">
+return (<center>
+    <div class="add">
 <form>
   <label>
     Name :
@@ -39,7 +39,7 @@ return (
   </label><br/>
   <label>
     Meal Id :
-    <input type="number" value = {mealId} onChange= {(e) => setMealId(e.target.value) } required />
+    <input type="number" value = {mealid} onChange= {(e) => setMealId(e.target.value) } required />
   </label><br/>
   <label>
     Stars :
@@ -47,6 +47,6 @@ return (
   </label><br/>
    <button  onClick= {onSubmit} >submit </button>
 </form>
-    </div>
+    </div></center>
 )
 }

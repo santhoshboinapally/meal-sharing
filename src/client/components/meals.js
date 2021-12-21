@@ -8,32 +8,20 @@ const Meals=()=>{
       .then(res=>res.json())
       .then(json=>setData(json)) },[])
       return(
+        <center>
         <div class="meals">
         <h1>Meals</h1>
         <p>Chose your Meals here</p>
-        <p> <input type={"button" } value={"Add Meal"} onClick={
-          ()=>{
-            window.location.href="/addmeal"
-          }
-        }/>
-        <input type="button" value={"Add Reservation" }onClick={()=>{
-            window.location.href="/addreservation/"
-          }
-          }/>
-          <input type="button" value="Add Review" onClick={()=>{
-            window.location.href="/addreview"
-          }
-        }/> </p> 
-        {data.map(item=>(
-          <div class="card">            
+         {data.map(item=>(
+          <div class="card">
+          <img src="https://www.pngall.com/wp-content/uploads/5/Tofu-Burger.png" width="100px" height="80px" alt="burger"/> <br/>
           ID : {item.id}<br/>
           NAME : {item.title} <br/>
           COST : {item.price} DKK
           </div>
         )
       )
-}           
-        </div>
+}    </div></center>
       )
 }
 export default Meals;

@@ -6,23 +6,23 @@ const Reservations=()=>{
       fetch("/api/reservation")
       .then(res=>res.json())
       .then(json=>setData(json)) },[])
-      return(
+      return(<center>
         <div class="reservation">
         <h1>Reservations</h1>
     <p>Welcome To Reservations Page</p>
         {data.map(item=>(
           <div>
             <ul>
-          <li>ID:{item.id}<br/>
-          MEAL ID:{item.meal_id}<br/>
+          <li>
           NO OF GUESTS:{item.number_of_guests}<br/>
+          MEAL ID:{item.meal_id}<br/>   
+          PH NO:{item.contact_phonenumber}<br/>       
           NAME:{item.contact_name}<br/>
-          PH NO:{item.contact_phonenumber}<br/>
-          </li>
+                    </li>
           </ul>
           </div>
         ))}
-        </div>
+        </div></center>
       )
 }
 export default Reservations;

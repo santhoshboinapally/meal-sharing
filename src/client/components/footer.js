@@ -1,15 +1,14 @@
-import React from "react";
-import DateTime from "./timer";
+import React  from "react";
 
 const Footer = () => {
-    return (
+    return (      
         <div  class="footer">
-         
-        <a href="https://www.linkedin.com/" target="_blank">
+        <h4>Copyright © 2021 : Santhosh </h4>
+          <a href="https://www.linkedin.com/in/santhosh-boinapally/" target="_blank">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LinkedIn_Logo_2013.svg/1920px-LinkedIn_Logo_2013.svg.png"
+            src="https://img.icons8.com/color/48/000000/linkedin.png"
             alt="linkedin"
-            width="100"
+            width="30"
         /></a>      
         <a href="https://github.com/santhoshboinapally" target="_blank"
           ><img
@@ -17,11 +16,7 @@ const Footer = () => {
             alt="git"
             width="50"
         /></a>
-      
-         </div>
-    );
+                   </div>
+          );
 };
 export default Footer;
-            
-        
-            

@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react';
+import React, {useState} from 'react';
 
 export function AddMeal({}) {
 const [title, setTitle] = useState("");
@@ -28,8 +28,8 @@ const [price, setPrice] = useState("");
   }
 }
 
-return (
-    <div class="addmeal">
+return (<center>
+    <div class="add">
 <form>
   <label>
     Name :
@@ -41,6 +41,6 @@ return (
   </label><br/>
    <button  onClick= {onSubmit} >submit </button>
 </form>
-    </div>
+    </div></center>
 )
 }

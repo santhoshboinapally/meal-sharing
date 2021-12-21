@@ -11,7 +11,7 @@ router.get("/", async(request, response) => {
         throw error;
     }
 });
-//Adds a new review 	
+//Add a new review 	
 router.post("/", async (request, response) => {
     try {
           const newReview = await knex("review").insert(request.body);
