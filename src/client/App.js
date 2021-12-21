@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./App.css";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { BrowserRouter as Link, Route } from "react-router-dom";
 import Header from "./components/header";
 import Home from "./components/home";
 import DateTime from "./components/timer";
