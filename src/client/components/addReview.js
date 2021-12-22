@@ -35,7 +35,7 @@ return (<center>
 <form>
   <label>
     Name :
-    <input type="text" value = {title} onChange= {(e) => setTitle(e.target.value) } required />
+  <input type="text" value = {title} onChange= {(e) => setTitle(e.target.value) } required />
   </label><br/>
   <label>
     Meal Id :
@@ -45,7 +45,7 @@ return (<center>
     Stars :
     <input type="number" value = {stars} onChange= {(e) => setStars(e.target.value) } required />
   </label><br/>
-   <button  onClick= {onSubmit} >submit </button>
+   <button  onClick= {onSubmit} >Submit </button>
 </form>
     </div></center>
 )

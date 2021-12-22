@@ -11,14 +11,10 @@ const Reviews=()=>{
         <h1>Reviews</h1>
          <p>Welcome To Reviews Page</p>
         {data.map(item=>(
-          <div>
-            <ul>
-          <li>
+          <div class="card">
           Meal-ID : {item.meal_id}<br/>
-          Review : {item.title}<br/>
-          STARS : {item.stars}
-          </li>
-          </ul>
+          Review  : {item.title}<br/>
+          STARS  : {item.stars}
           </div>
         ))}
         </div></center>
