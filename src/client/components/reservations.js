@@ -11,16 +11,12 @@ const Reservations=()=>{
         <h1>Reservations</h1>
     <p>Welcome To Reservations Page</p>
         {data.map(item=>(
-          <div>
-            <ul>
-          <li>
+          <div class="card">
           NO OF GUESTS:{item.number_of_guests}<br/>
           MEAL ID:{item.meal_id}<br/>   
           PH NO:{item.contact_phonenumber}<br/>       
-          NAME:{item.contact_name}<br/>
-                    </li>
-          </ul>
-          </div>
+          NAME:{item.contact_name}<br/>              
+                </div>
         ))}
         </div></center>
       )
