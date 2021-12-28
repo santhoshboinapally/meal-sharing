@@ -10,4 +10,4 @@ function Header() {
         </center>  
     );
 }
-export default Header; 
+export default Header;
