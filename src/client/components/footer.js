@@ -1,6 +1,5 @@
 import React  from "react";
 import DateTime from "./timer";
-
 const Footer = () => {
     return (      
   <div>
