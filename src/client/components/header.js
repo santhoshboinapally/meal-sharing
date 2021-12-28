@@ -10,8 +10,4 @@ function Header() {
         </center>  
     );
 }
-<<<<<<< HEAD
 export default Header; 
-=======
-export default Header;
->>>>>>> e8f25d4d1989ec150e484064d0b1ed65394777ee
