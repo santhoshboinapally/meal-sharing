@@ -1,12 +1,13 @@
 import React from "react";
-
+import { NavigationBar } from "./navigationbar";
 function Header() {
     return (
          <center>
-        <h1>Welcome to Meal-Sharing</h1>
-        </center>
-  
+        <div className="header">
+         <img  src ="./public/mslogo.png"   alt="mylogo" width="150px" height="100px"  />
+         <NavigationBar />
+        </div>
+        </center>  
     );
 }
-export default Header;
-
+export default Header; 

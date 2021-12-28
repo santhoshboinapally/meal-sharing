@@ -34,6 +34,7 @@ const [Name, setName] = useState("");
 
 return (<center>
     <div class="add">
+      <h3>Add a Reservation</h3>
 <form>
 <label>
     Guests :

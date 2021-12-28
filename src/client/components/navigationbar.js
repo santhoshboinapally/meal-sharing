@@ -11,7 +11,8 @@ export function NavigationBar() {
                     <a href="/reviews">Reviews</a>
                     <a href="/reservations">Reservations</a>
                     <a href="/contactus">ContactUs</a>
-                </div></center>
+                </div>
+                </center>
             </nav>
         </div>
     );

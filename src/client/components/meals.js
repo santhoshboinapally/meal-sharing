@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect,useState } from "react";
+import { Route } from "react-router-dom";
 
 const Meals=()=>{
   const [data,setData]=useState([]);
@@ -11,13 +12,14 @@ const Meals=()=>{
         <center>
         <div class="meals">
         <h1>Meals</h1>
-        <p>Chose your Meals here</p>
          {data.map(item=>(
           <div class="card">
-          <img src="https://www.pngall.com/wp-content/uploads/5/Tofu-Burger.png" width="100px" height="80px" alt="burger"/> <br/>
+           {item.title} <br/>
+          <img src="https://cdn4.iconfinder.com/data/icons/food-icons/burger.png" width="100px" height="80px" alt="burger"/> <br/>
+          <div class="sub" >
           ID : {item.id}<br/>
-          NAME : {item.title} <br/>
-          COST : {item.price} DKK
+          Price : {item.price} DKK
+          </div>
           </div>
         )
       )

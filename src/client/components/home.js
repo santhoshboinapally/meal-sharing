@@ -13,7 +13,12 @@ function Home() {
         <p>
         You can also search for meals and see what other people have shared.
         </p>
-        <img src="https://assets.livelifegetactive.com/20200221121118/Sharing-food-with-friends.jpg" alt="meal sharing" width="600px" height="300px"/>
+        <img src="https://assets.livelifegetactive.com/20200221121118/Sharing-food-with-friends.jpg" alt="meal sharing" width="800px" height="400px"/>
+        <h3>What is meal sharing?</h3>
+        <p>
+        Meal Sharing enables travelers and locals to connect with each other over home-cooked meals.</p>
+       <p>The online application builds community, promotes cultural exchange, and encourages </p>
+       <p>people to live healthier lives through the delicious world of food.</p>
         </div>  
         </center>
     );
