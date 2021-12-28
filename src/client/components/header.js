@@ -4,7 +4,7 @@ function Header() {
     return (
          <center>
         <div className="header">
-         <img  src ="./public/mslogo.png"   alt="mylogo" width="150px" height="100px"  />
+         <img  src ="./images/mslogo.png"   alt="mylogo" width="150px" height="100px"  />
          <NavigationBar />
         </div>
         </center>  
