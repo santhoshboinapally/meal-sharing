@@ -9,9 +9,8 @@ const Reservations=()=>{
       return(<center>
         <div class="reservation">
         <h1>Reservations</h1>
-    <p>Welcome To Reservations Page</p>
-        {data.map(item=>(
-          <div class="card">
+         {data.map(item=>(
+          <div class="card">           
           NO OF GUESTS:{item.number_of_guests}<br/>
           MEAL ID:{item.meal_id}<br/>   
           PH NO:{item.contact_phonenumber}<br/>       
