@@ -18,18 +18,19 @@ import { NavigationBar } from "./components/navigationbar";
 function App() {
   return (
     <div>
-      <Header/>
-      <AddButtons />
-      <Route exact path="/" component={Home} />       
-      <Route exact path="/meals" component={Meals} />
+        <Header/>
+        <NavigationBar/>
+        <AddButtons />
+       <Route exact path="/" component={Home} />       
+       <Route exact path="/meals" component={Meals} />
       <Route exact path="/reviews" component={Reviews} />
       < Route exact path="/reservations" component={Reservations} />
       <Route exact path="/contactus" component={ContactUs} />
       <Route exact path="/addmeal" component={AddMeal} />
       <Route exact path="/addreview" component={AddReview} />
       <Route exact path="/addreservation" component={AddReservation} />
-      <Footer />
-     </div>
+      <DateTime />
+      </div>
   );
 }
 export default App;

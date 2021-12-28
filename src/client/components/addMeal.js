@@ -30,7 +30,6 @@ const [price, setPrice] = useState("");
 
 return (<center>
     <div class="add">
-      <h3>Add a Meal</h3>
 <form>
   <label>
     Name :
