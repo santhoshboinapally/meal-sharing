@@ -1,17 +1,28 @@
-@media screen and (max-width: 600px) {
+@media (min-width: 481px) and (max-width: 768px) {
   #root {
     padding-left: 0;
     padding-right: 0;
+    margin: unset;
   }
-<<<<<<< HEAD
   input {
     width: 100%;
   }
+  .desc img {
+    max-width: 50%;
+  }
   footer {
-    width: 100%;
+    width: 50%;
     float: none;
+    padding: unset;
+  }
+  footer ul,
+  .footer-list,
+  .footer-text,
+  .footer-text a {
+    display: block;
+    flex-direction: column;
+  }
+  .footer-text a {
+    width: 100%;
   }
 }
-=======
-}
->>>>>>> e8f25d4d1989ec150e484064d0b1ed65394777ee

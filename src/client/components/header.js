@@ -4,14 +4,10 @@ function Header() {
     return (
          <center>
         <div className="header">
-         <img  src ="./public/mslogo.png"   alt="mylogo" width="150px" height="100px"  />
+            <h1>Meal Sharing</h1>
          <NavigationBar />
         </div>
         </center>  
     );
 }
-<<<<<<< HEAD
 export default Header; 
-=======
-export default Header;
->>>>>>> e8f25d4d1989ec150e484064d0b1ed65394777ee
