@@ -1,5 +1,6 @@
 import React from "react";
 import { NavigationBar } from "./navigationbar";
+
 function Header() {
     return (
          <center>
@@ -10,4 +11,4 @@ function Header() {
         </center>  
     );
 }
-export default Header; 
+export default Header;
