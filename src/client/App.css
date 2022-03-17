@@ -147,6 +147,7 @@ footer {
   bottom: 0.5em;
   position: relative;
   padding: 2px;
+  top:5px;
 }
 footer .map iframe {
   width: 200px;
