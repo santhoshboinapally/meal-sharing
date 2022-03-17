@@ -4,7 +4,7 @@ export function AddReservation({}) {
 const [guests, setGuest] = useState("");
 const [mealid, setMealId] = useState("");
 const [phone, setPhone] = useState("");
-const [Name, setName] = useState("");
+const [name, setName] = useState("");
 
   function onSubmit(){
     if(guests!== ''){
@@ -17,7 +17,7 @@ const [Name, setName] = useState("");
               number_of_guests: guests,
               meal_id: mealid,
               contact_phonenumber: phone,
-              contact_name: Name
+              contact_name: name
                 })
         });
       }
@@ -50,7 +50,7 @@ return (<center>
   </label><br/>
      <label>
     Name :
-    <input type="text" value = {Name} onChange= {(e) => setName(e.target.value) } required />
+    <input type="text" value = {name} onChange= {(e) => setName(e.target.value) } required />
     </label><br/>  
 <button  onClick= {onSubmit} >submit </button>
 </form>
