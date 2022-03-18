@@ -46,7 +46,7 @@ return (<center>
     Stars :
     <input type="number" value = {stars} onChange= {(e) => setStars(e.target.value) } required />
   </label><br/>
-   <button  onClick= {onSubmit} >Submit </button>
+   <input type="button" class='button-33' onClick= {onSubmit} value='Submit'/>
 </form>
     </div></center>
 )

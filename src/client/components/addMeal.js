@@ -40,8 +40,8 @@ return (<center>
     Cost :
     <input type="number" value = {price} onChange= {(e) => setPrice(e.target.value) } required />
   </label><br/>
-   <button  onClick= {onSubmit} >submit </button>
-</form>
+  <input type="button" class='button-33' onClick= {onSubmit} value='Submit'/>
+   </form>
     </div></center>
 )
 }

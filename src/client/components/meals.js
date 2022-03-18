@@ -14,10 +14,9 @@ const Meals=()=>{
         <h1>Meals</h1>
          {data.map(item=>(
           <div class="card">
-           {item.title} <br/>
-          <img src="https://cdn4.iconfinder.com/data/icons/food-icons/burger.png" width="100px" height="80px" alt="burger"/> <br/>
+          <img src="https://www.sunset-boulevard.dk/wp-content/uploads/2021/04/J644_Web_BURGER_Crispy_Chicken_978x828px.jpg" width="100%" height="100%" alt="burger"/> <br/>
           <div class="sub" >
-          ID : {item.id}<br/>
+          {item.title} <br/>
           Price : {item.price} DKK
           </div>
           </div>
