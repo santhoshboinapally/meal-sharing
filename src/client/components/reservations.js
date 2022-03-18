@@ -10,7 +10,8 @@ const Reservations=()=>{
         <div class="reservation">
         <h1>Reservations</h1>
          {data.map(item=>(
-          <div class="card">           
+          <div class="card">  
+          NAME:{item.contact_name}<br/>         
           NO OF GUESTS:{item.number_of_guests}<br/>
           MEAL ID:{item.meal_id}<br/>   
           PH NO:{item.contact_phonenumber}<br/>       
