@@ -52,7 +52,7 @@ return (<center>
     Name :
     <input type="text" value = {name} onChange= {(e) => setName(e.target.value) } required />
     </label><br/>  
-<button  onClick= {onSubmit} >submit </button>
+    <input type="button" class='button-33' onClick= {onSubmit} value='Submit'/>
 </form>
     </div></center>
 )
