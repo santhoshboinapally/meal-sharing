@@ -160,7 +160,13 @@ input {
   padding: 5px;
 }
 .addButtons {
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+
 }
 footer {
   text-align: center;
