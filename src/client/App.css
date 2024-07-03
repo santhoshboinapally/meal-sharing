@@ -51,8 +51,8 @@ body {
   transition: all 250ms;
   border: 0;
   font-size: 16px;
-  user-select: none;
   -webkit-user-select: none;
+  user-select: none;
   touch-action: manipulation;
 }
 
@@ -97,7 +97,6 @@ p {
 .card {
   display: inline-block;
   color: rgb(0, 27, 27);
-  border-radius: 10px;
   background-color: blanchedalmond;
   box-shadow: 0 4px 8px 0 rgb(5, 5, 5);
   transition: 0.3s;
@@ -110,7 +109,7 @@ p {
 }
 .add,
 .contact {
-  color: rgb(0, 0, 0);
+  color: rgb(10, 0, 0);
   border-radius: 14px;
   box-shadow: 0 4px 8px 0 rgb(7, 7, 7);
   transition: 0.3s;

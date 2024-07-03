@@ -26,7 +26,7 @@ const Footer = () => {
 </div>
 </div></li>
 <li class="footer-list">
-<div class="footer-text">
+<div class="footer-text-icons">
   <h4>LINKS </h4>
 <a href="https://www.linkedin.com/in/santhosh-boinapally/" target="_blank">
           <img
