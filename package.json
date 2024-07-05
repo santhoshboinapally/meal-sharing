@@ -57,5 +57,14 @@
     "nodemon": "^1.12.1",
     "sequelize-cli": "^5.4.0",
     "webpack-dev-server": "^5.0.4"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshboinapally/meal-sharing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/santhoshboinapally/meal-sharing/issues"
+  },
+  "homepage": "https://github.com/santhoshboinapally/meal-sharing#readme"
 }
